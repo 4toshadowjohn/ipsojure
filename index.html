@@ -550,10 +550,15 @@
         <div class="footer-bottom">
             <p>© 2026 ESJURIASO IPSO JURE S.A.S. Todos los derechos reservados.</p>
         </div>
+        <button onclick="irprincipal()">Page principal</button>
     </footer>
 
     <!-- INTERACTIVIDAD MEDIANTE JAVASCRIPT -->
     <script>
+        function irprincipal () {
+            window.location.href = "/page/index.thml"
+        }
+
         function procesarConsulta() {
             const nombre = document.getElementById('nombre').value;
             const materia = document.getElementById('materia').value;
