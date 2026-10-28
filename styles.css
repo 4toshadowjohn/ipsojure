@@ -387,3 +387,9 @@
             .values-grid { grid-template-columns: 1fr; }
             .hero-content h1 { font-size: 2rem; }
         }
+
+/* Mantiene visibles los títulos al navegar con el menú fijo. */
+section[id] {
+    scroll-margin-top: 88px;
+}
+
