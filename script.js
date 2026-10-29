@@ -16,7 +16,7 @@ function irprincipal () {
                 hechos
             ].join('\n');
 
-            const urlWhatsApp = `https://wa.me/593991886352?text=${encodeURIComponent(mensaje)}`;
+            const urlWhatsApp = `https://wa.me/593961124516?text=${encodeURIComponent(mensaje)}`;
             window.open(urlWhatsApp, '_blank', 'noopener,noreferrer');
         }
 
@@ -27,4 +27,5 @@ function irprincipal () {
                 this.classList.add('active');
             });
         });
+
 
